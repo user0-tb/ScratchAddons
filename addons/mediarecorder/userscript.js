@@ -224,7 +224,7 @@ export default async ({ addon, console, msg }) => {
     };
     const startRecording = async (opts) => {
       // Timer
-      const secs = Math.min(600, Math.max(1, opts.secs));
+      const secs = Math.min(1200, Math.max(1, opts.secs));
 
       // Initialize MediaRecorder
       recordBuffer = [];
